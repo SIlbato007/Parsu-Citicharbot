@@ -15,3 +15,4 @@ uvicorn
 unstructured
 cohere
 sentence-transformers
+#pip install langchain rank_bm25 pypdf "unstructured[pdf]" chromadb
