@@ -1,2 +1,2 @@
 # Parsu-Citicharbot
-Thesis
+App
