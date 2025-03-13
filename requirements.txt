@@ -1,0 +1,17 @@
+rank_bm25
+langchain
+chromadb
+langchain_core
+python-dotenv
+streamlit
+langchain_community
+langchain-huggingface
+langchain-text-splitters
+pypdf
+fastapi
+langserve
+python-dotenv
+uvicorn
+unstructured
+cohere
+sentence-transformers
