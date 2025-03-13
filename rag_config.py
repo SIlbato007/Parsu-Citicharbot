@@ -8,7 +8,7 @@ from langchain.retrievers import BM25Retriever, EnsembleRetriever
 from langchain.document_loaders import UnstructuredPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
+from langchain.embeddings import HuggingFaceInferenceAPIEmbeddings
 
 # Load and set environment variables
 load_dotenv()
@@ -50,7 +50,7 @@ def setup_retrievers(vector_store, chunks):
 def setup_llm():
     #Initialize the LLM via HuggingFaceHub with specified parameters.
     return HuggingFaceHub(
-        repo_id="meta-llama/Meta-Llama-3-70B-Instruct",
+        repo_id="HuggingFaceH4/zephyr-7b-beta",
         model_kwargs={
             "max_new_tokens": 512,
             "temperature": 0.5,
